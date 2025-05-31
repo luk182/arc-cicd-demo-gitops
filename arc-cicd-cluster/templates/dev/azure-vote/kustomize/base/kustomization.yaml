@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dev
 
 images:
-  - name: zeppaaks/.azurecr.io//azure-vote-front
-    newTag: 57a43031cd89c46b76037b12d8567241f327d3b3
-  - name: zeppaaks/.azurecr.io//azure-vote-back
-    newTag: 57a43031cd89c46b76037b12d8567241f327d3b3
+  - name: zeppaaks.azurecr.io/azure-vote-front
+    newTag: fd71d26ad3f0f9cd9dd58b2e7f11fb5b9d7a79bb
+  - name: zeppaaks.azurecr.io/azure-vote-back
+    newTag: fd71d26ad3f0f9cd9dd58b2e7f11fb5b9d7a79bb
 resources:
   - manifests.yaml
