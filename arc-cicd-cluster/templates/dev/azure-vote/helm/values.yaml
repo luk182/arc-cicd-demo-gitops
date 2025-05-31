@@ -1,4 +1,4 @@
 title: "Voting Application"
 serviceType: ClusterIP
-imageRepo: zeppaaks/.azurecr.io/
+imageRepo: zeppaaks.azurecr.io
 demoAppUrl: "/"
