@@ -40,7 +40,7 @@ spec:
       - env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
-        image: zeppaaks.azurecr.io/azure-vote-back:fd71d26ad3f0f9cd9dd58b2e7f11fb5b9d7a79bb
+        image: zeppaaks-aua5grb9a0g3f3b5.azurecr.io/azure-vote-back:7a360c71fb427b79a80ad1912eb84fd023641c1b
         name: azure-vote-back
         ports:
         - containerPort: 6379
@@ -69,7 +69,7 @@ spec:
           value: azure-vote-back
         - name: TITLE
           value: Voting Application
-        image: zeppaaks.azurecr.io/azure-vote-front:fd71d26ad3f0f9cd9dd58b2e7f11fb5b9d7a79bb
+        image: zeppaaks-aua5grb9a0g3f3b5.azurecr.io/azure-vote-front:7a360c71fb427b79a80ad1912eb84fd023641c1b
         name: azure-vote-front
         ports:
         - containerPort: 80
