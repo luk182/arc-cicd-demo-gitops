@@ -5,8 +5,8 @@ namespace: dev
 
 images:
   - name: zeppaaks-aua5grb9a0g3f3b5.azurecr.io/azure-vote-front
-    newTag: 7a360c71fb427b79a80ad1912eb84fd023641c1b
+    newTag: 6a1034a0a924619ca3d37815ade2ac418d554e19
   - name: zeppaaks-aua5grb9a0g3f3b5.azurecr.io/azure-vote-back
-    newTag: 7a360c71fb427b79a80ad1912eb84fd023641c1b
+    newTag: 6a1034a0a924619ca3d37815ade2ac418d554e19
 resources:
   - manifests.yaml
